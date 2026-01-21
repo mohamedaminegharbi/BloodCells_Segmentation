@@ -12,7 +12,7 @@ This project implements an object detection pipeline for blood cell analysis usi
 
 ## Architecture
 
-f<img width="946" height="451" alt="faster-RCNN" src="https://github.com/user-attachments/assets/f8ae58b0-cc77-434e-8681-842c300a680c" />
+<img width="946" height="451" alt="faster-RCNN" src="https://github.com/user-attachments/assets/f8ae58b0-cc77-434e-8681-842c300a680c" />
 
 The system uses the Faster R-CNN architecture with the following components:
 
