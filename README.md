@@ -10,6 +10,21 @@ This project implements an object detection pipeline for blood cell analysis usi
 - **Mixed training strategy** combining normal and augmented images
 - Automated cell counting and analysis
 
+## Architecture
+
+![Faster R-CNN Architecture](f<img width="946" height="451" alt="faster-RCNN" src="https://github.com/user-attachments/assets/f8ae58b0-cc77-434e-8681-842c300a680c" />)
+
+The system uses the Faster R-CNN architecture with the following components:
+
+1. **Convolutional Backbone**: ResNet50 with Feature Pyramid Network (FPN) extracts multi-scale features from input images
+2. **Region Proposal Network (RPN)**: Generates candidate bounding boxes (proposals) for potential cell locations
+3. **RoI Pooling**: Extracts fixed-size feature maps from each proposed region
+4. **Detection Head**: 
+   - **Classification layer (cls)**: Predicts cell type (RBC, WBC, Platelets, or Background)
+   - **Regression layer (reg)**: Refines bounding box coordinates for precise localization
+
+This two-stage detection approach allows for accurate identification and counting of blood cells in microscopy images.
+
 ## Features
 
 - ✅ Detection of 3 blood cell types: RBC, WBC, and Platelets
