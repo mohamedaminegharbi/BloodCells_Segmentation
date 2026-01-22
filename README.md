@@ -136,8 +136,6 @@ OUTPUT_DIR = Path(r"outputs/BCCD_detection")
 
 ## Dataset Structure
 
-<img width="946" height="451" alt="faster-RCNN" src="https://github.com/user-attachments/assets/9cb3f547-9c24-4585-8f54-5df187eecf2b" />
-
 The dataset contains three types of blood cells:
 - **RBC (Red Blood Cells)**: The most abundant cells, appearing as pink circular cells
 - **WBC (White Blood Cells)**: Larger cells with dark purple nuclei
