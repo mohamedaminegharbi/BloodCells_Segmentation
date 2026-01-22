@@ -34,7 +34,7 @@ This project implements an object detection pipeline for blood cell analysis usi
 ## Architecture
 
 <p align="center">
-  <img src="C:\Users\user\Downloads\faster-RCNN.png" alt="Faster R-CNN Architecture" width="800"/>
+  <img src="C:\Users\user\Downloads\faster-RCNN.png" width="800"/>
 </p>
 
 The system uses the Faster R-CNN architecture with the following components:
@@ -139,7 +139,7 @@ OUTPUT_DIR = Path(r"outputs/BCCD_detection")
 ## Dataset Structure
 
 <p align="center">
-  <img src="assets/blood_cells_example.png" alt="Blood Cell Types" width="500"/>
+  <img src="assets/blood_cells_example.png" width="500"/>
 </p>
 
 The dataset contains three types of blood cells:
@@ -281,7 +281,7 @@ The system applies 6 different morphological operations to enhance training:
 | **Closing** | Fills small gaps (dilation → erosion) | Fills holes in cells |
 
 <p align="center">
-  <img src="C:\Users\user\Downloads\b.jpg" alt="Morphological Operations Applied to Blood Cells" width="800"/>
+  <img src="C:\Users\user\Downloads\b.jpg" width="800"/>
 </p>
 
 Each technique creates unique variations that help the model learn robust features and improves generalization to various imaging conditions.
