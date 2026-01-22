@@ -141,6 +141,8 @@ The dataset contains three types of blood cells:
 - **WBC (White Blood Cells)**: Larger cells with dark purple nuclei
 - **Platelets**: Small cell fragments scattered throughout
 
+![b](https://github.com/user-attachments/assets/42d44a11-bd83-43bd-9a14-9db063063693)
+
 ```
 data/
 └── BCCD_Dataset/
@@ -271,8 +273,6 @@ The system applies 6 different morphological operations to enhance training:
 | **Erosion** | Shrinks object boundaries | Makes cells appear smaller |
 | **Opening** | Removes small noise (erosion → dilation) | Cleans up small artifacts |
 | **Closing** | Fills small gaps (dilation → erosion) | Fills holes in cells |
-
-![b](https://github.com/user-attachments/assets/42d44a11-bd83-43bd-9a14-9db063063693)
 
 Each technique creates unique variations that help the model learn robust features and improves generalization to various imaging conditions.
 
