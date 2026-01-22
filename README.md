@@ -137,7 +137,7 @@ OUTPUT_DIR = Path(r"outputs/BCCD_detection")
 ## Dataset Structure
 
 <p align="center">
-  <img src="assets/blood_cells_example.png" width="500"/>
+  <img src=r"C:\Users\user\Downloads\b.jpg" width="500"/>
 </p>
 
 The dataset contains three types of blood cells:
