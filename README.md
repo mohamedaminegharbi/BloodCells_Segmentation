@@ -33,9 +33,7 @@ This project implements an object detection pipeline for blood cell analysis usi
 
 ## Architecture
 
-<p align="center">
-  <img src="C:\Users\user\Downloads\faster-RCNN.png" width="800"/>
-</p>
+![Faster R-CNN Architecture](C:\Users\user\Downloads\faster-RCNN.png)
 
 The system uses the Faster R-CNN architecture with the following components:
 
@@ -729,3 +727,4 @@ python testing.py
 ---
 
 **Happy Cell Counting! 🔬🩸**
+
