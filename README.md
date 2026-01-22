@@ -136,9 +136,7 @@ OUTPUT_DIR = Path(r"outputs/BCCD_detection")
 
 ## Dataset Structure
 
-<p align="center">
-  <img src=r"C:\Users\user\Downloads\b.jpg" width="500"/>
-</p>
+<img width="946" height="451" alt="faster-RCNN" src="https://github.com/user-attachments/assets/9cb3f547-9c24-4585-8f54-5df187eecf2b" />
 
 The dataset contains three types of blood cells:
 - **RBC (Red Blood Cells)**: The most abundant cells, appearing as pink circular cells
@@ -263,9 +261,7 @@ model.eval()
 
 ## Morphological Augmentation Techniques
 
-<p align="center">
-  <img src="C:\Users\user\Downloads\a.png" alt="Morphological Operations" width="600"/>
-</p>
+<img width="392" height="128" alt="a" src="https://github.com/user-attachments/assets/f10188f9-02ce-49e5-af0c-0a80636db346" />
 
 The system applies 6 different morphological operations to enhance training:
 
@@ -278,9 +274,7 @@ The system applies 6 different morphological operations to enhance training:
 | **Opening** | Removes small noise (erosion → dilation) | Cleans up small artifacts |
 | **Closing** | Fills small gaps (dilation → erosion) | Fills holes in cells |
 
-<p align="center">
-  <img src="C:\Users\user\Downloads\b.jpg" width="800"/>
-</p>
+![b](https://github.com/user-attachments/assets/42d44a11-bd83-43bd-9a14-9db063063693)
 
 Each technique creates unique variations that help the model learn robust features and improves generalization to various imaging conditions.
 
